@@ -17,6 +17,9 @@ public class Type {
         this.name = name;
     }
 
+    public int getId() { return this.id; }
+    public void setId(int id) { this.id = id; }
     public String getName() { return this.name; }
+    public void setDescription(String description) { this.description = description; }
     public String getDescription() { return this.description; }
 }
